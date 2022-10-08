@@ -25,7 +25,7 @@ if num[0] ==  '+': num = num[1::]
 print(num, '= 0')
 
 with open('Polynomial.txt', 'w') as data:
-    data.write(num)
+    data.write(f'{num} = 0')
 
 
 
